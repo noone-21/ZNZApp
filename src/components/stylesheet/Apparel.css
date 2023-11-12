@@ -1,0 +1,43 @@
+.apparel{
+    display: flex;
+    flex-direction: column;
+    box-shadow: -3px -6px 5px 0px #0000001A;
+    width: 100%;
+    background-color: #0000001A;
+    position: absolute;
+    padding: 0 0 60px 0;
+    margin-top: 2700px;
+}
+.apparel h3{
+    color: #3B7197;
+    font-weight: bolder;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+.apparelItems{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+}
+
+
+
+/* APPAREL ITEM */
+
+.apparelItem{
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: #FFFF;
+    border: 1px solid #FFFF;
+    width: 250px;
+}
+.apparelItem img{
+    width: 250px;
+    height: 200px;
+}
+.apparelItem p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}

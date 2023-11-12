@@ -1,0 +1,35 @@
+.patchItem{
+    margin-left: 20px ;
+}
+.patchItem img{
+    /* padding: 100px; */
+    width: 220px;
+    height: 350px;
+}
+.patchItemBody{
+    position: relative;
+    bottom: 175px;
+    left: 9px;
+    background-color: #FFFF;
+    border: 1px solid #FFFF;
+    width: 180px;
+    border-radius: 10px;
+    padding: 10px 10px 20px 10px;
+}
+.patchItemBody h2{
+    font-size: medium;
+    color: #74BDE0;
+    margin: 0;
+}
+.patchItemBody p{
+    font-size: x-small;
+    color: #868686;
+}
+.patchItemBody div{
+    font-weight: bolder;
+    font-size: smaller;
+}
+.patchItemBody img{
+    width: 10px;
+    height: 10px;
+}

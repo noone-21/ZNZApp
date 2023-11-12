@@ -1,0 +1,36 @@
+.patchCategories{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1700px;
+}
+.patchCategoryHeader{
+    width: 100%;
+    justify-content: center;
+}
+.patchCategoryHeader h1{
+    color: #74BDE0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.patchCategoryHeader p{
+    color: #868686;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.patchCategoryBody{
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100%; */
+}
+.patchCategoryItemWrapper {
+    height: 360px;
+    flex: 0 0 calc(30.3333%  - 155px); 
+    margin: 2px 8px; 
+  }

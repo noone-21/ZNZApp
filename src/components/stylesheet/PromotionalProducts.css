@@ -1,0 +1,50 @@
+.promotionalProducts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFF;
+    width: 80%;
+    position: absolute;
+    margin: 3150px 150px 0 150px;
+}
+.promotionalProducts h3{
+    color: #3B7197;
+    font-weight: bolder;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+.promotionalProductsItems{
+    display: flex;
+    width: 100%;
+    flex-direction: row ;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.promotionalItemWrapper {
+    flex: 0 0 calc(50% - 16px); 
+    margin: 10px 0; 
+  }
+
+
+
+  /* PROMOTIONAL PRODUCTS ITEM */
+
+.promotionalProductsItem{
+    display: flex;
+}
+.promotionalProductsItem img{
+    width: 250px;
+    height: 150px;
+}
+.promotionalProductsItemBody{
+    margin-left: 20px;   
+    width: 100%;
+}
+.promotionalProductsItemBody h2{
+    margin-bottom: 0;
+    font-size: x-large;
+}
+.promotionalProductsItemBody p{
+    font-size: small;
+}

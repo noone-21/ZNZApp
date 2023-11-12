@@ -1,0 +1,29 @@
+.featureItem{
+    /* margin-left: 20px; */
+    padding: 20px 10px;
+}
+.featureItem img{
+    position: relative;
+    /* background-color: #FFFF; */
+    top: 25px;
+    left: 115px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #3B7197;
+    color: #3B7197;
+    padding: 5px;
+}
+.ftrItemBody{
+    padding: 20px 10px;
+    border: 1px solid #3B7197;
+    width: 260px;
+    height: 150px;
+}
+.ftrItemBody h2{
+    text-align: center;
+    font-size: 15px;
+}
+.featureItem p{
+    text-align: center;
+}

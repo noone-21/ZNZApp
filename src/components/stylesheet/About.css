@@ -1,0 +1,38 @@
+.about{
+    display: flex;
+    position: absolute;
+    margin-top: 1200px;
+    background-color: #222222;
+    padding: 40px 30px;
+    width: 95%;
+    gap: 60px;
+}
+.aboutImg{
+    width: 45%;
+    height: 350px;
+}
+.about img{
+    position: relative;
+    bottom: 220px;
+    left: 50px;
+    width: 490px;
+    height: 290px;
+    border-radius: 10px;
+}
+.dottedBorder{
+    border: 1px dashed #3B7197;
+    padding: 130px 130px;
+    border-radius: 10px;
+    width: 40%;
+}
+.aboutBody{
+    width: 45%;
+}
+.aboutBody h1{
+    margin: 0;
+    color: #74BDE0;
+    font-size:xx-large;
+}
+.aboutBody p{
+    color: #868686;
+}

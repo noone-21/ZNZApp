@@ -1,0 +1,65 @@
+.customPatch{
+    display: flex;
+    width: 90%;
+    margin: 150px 70px;
+    position: absolute;
+    padding: 5px;
+    background-color: #FFFF;
+}
+.customPatch h1{
+    color: #313131;
+    font-size: 40px;
+    margin: 0;
+}
+.customPatch p{
+    color: #868686;
+}
+.customPatchBtns{
+    display: flex;
+    gap: 10px;
+}
+.cpImg img{
+    position: relative;
+    z-index: 999;
+}
+.ellipse{
+    position: relative;
+    border-radius: 50%;
+    height: 204px;
+    width: 202px;
+    left: 543px;
+    bottom: 243px;
+    background-color: transparent;
+    box-shadow: 20px 13px 15px 3px rgb(116,189,224,0.4);
+}
+
+.banner{
+    display: flex;
+    position: absolute;
+    color: #F1F1F1;
+    width: 97%;
+    justify-content: center;
+    background-color: #3B7197;
+    padding: 20px;
+    margin-top: 650px;
+}
+.banner h2{
+    font-weight: 500;
+    margin: 0;
+}
+.banner p{
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.features{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    margin-top: 800px;
+    justify-content: center;
+    /* justify-content: space-between; */
+}

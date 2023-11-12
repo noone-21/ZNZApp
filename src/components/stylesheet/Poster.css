@@ -1,0 +1,80 @@
+.poster{
+    margin: 5300px 56px 0 56px ;
+    position: absolute;
+    width: 90%;
+    height: 350px;
+    background-color: #3B7197;
+    padding: 20px;
+}
+.posterBody{
+    position: relative;
+    bottom: 160px;
+}
+.posterBody h2{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    color: #FFFF;
+    margin-bottom: 10px;
+}
+.posterBody h3{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    color: #FFFF;
+    font-weight: 400;
+    font-size: 24px;
+}
+.posterBody p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #FFFF;
+}
+.posterBtns{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.beanie{
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+    width: 150px;
+    height: 200px;
+}
+.stickers{
+    position: relative;
+    left: 934px;
+    bottom: 20px;
+    width: 150px;
+    height: 200px;
+}
+.tags{
+    position: relative;
+    top: 170px;
+    right: 320px;
+    width: 150px;
+    height: 200px;
+}
+.cap{
+    position: relative;
+    top: 170px;
+    left: 634px;
+    width: 150px;
+    height: 200px;
+}
+.posterEllipse{
+    position: relative;
+    height: 65px;
+    width: 180px;
+    bottom: 424px;
+    left: 700px;
+}
+.darkEllipse{
+    position: relative;
+    height: 65px;
+    width: 180px;
+    bottom: 99px;
+    left: 100px;
+}
