@@ -2,12 +2,12 @@
     position: absolute;
     margin-top: 6100px;
     background-color: #F1F1F1;
-    padding: 20px 30px;
-    width: 95.55%;
+    padding: 20px 50px;
+    width: 92.56%;
 }
 .footerLogo{
     display: flex;
-    width: 90%;
+    width: 88%;
     justify-content: left;
     margin: 0 auto;
 }
@@ -25,7 +25,11 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    gap: 70px;
+    gap: 110px;
+}
+.footerItemWrapper{
+    display: flex;
+    flex-direction: column;
 }
 .paymentMethods{
     position: relative;
@@ -50,7 +54,7 @@
     display: flex;
     flex-direction: column;
 }
-.footerItem h1{
+.footerItem h2{
     margin-top: 0;
 }
 .footerItem p{

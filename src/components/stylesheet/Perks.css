@@ -28,7 +28,6 @@
 }
 .perkItem img{
     position: relative;
-    /* left: 65px; */
     margin: 0 auto;
     display: flex;
     justify-content: center;

@@ -27,7 +27,6 @@
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    /* width: 100%; */
 }
 .patchCategoryItemWrapper {
     height: 360px;

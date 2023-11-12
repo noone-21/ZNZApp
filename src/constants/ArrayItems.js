@@ -24,10 +24,6 @@ import fb from '../components/pictures/fb.png'
 import insta from '../components/pictures/insta.png'
 import pinterest from '../components/pictures/pinterest.png'
 import twitter from '../components/pictures/twitter.png'
-import masterCard from '../components/pictures/masterCard.png'
-import Visa from '../components/pictures/Visa.png'
-import Paypal from '../components/pictures/Paypal.png'
-import moneyGram from '../components/pictures/moneyGram.png'
 
 const navItems =[
     {
@@ -279,18 +275,22 @@ const FooterItems = [
             'Custom T-shirts',
             'Hats',
             'Beanies',
-            'Masks'
-        ]
-    },
-    {
-        key: '4',
-        title: 'Feature Products',
-        contents:[
+            'Masks',
+            'Feature Products',
             'PVC Key chains',
             'Uniform Patches',
             'Police Patches'
         ]
     },
+    // {
+    //     key: '4',
+    //     title: 'Feature Products',
+    //     contents:[
+    //         'PVC Key chains',
+    //         'Uniform Patches',
+    //         'Police Patches'
+    //     ]
+    // },
     {
         key: '5',
         title: 'Customer Care',

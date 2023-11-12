@@ -10,7 +10,7 @@ function FooterItem(props) {
             <section className='footerItem' >
                 <h2> {title} </h2>
                 {contents.map((item, index) => {
-                    return <p style={{ color: title === 'Contact Us' && index === 0 ? '#74BDE0' : '#868686' }} > {item} </p>
+                    return <p style={{ color: title === 'Contact Us' && index === 0 ? '#74BDE0' : (title==='Apparel'&&index===4?'#000000':'#868686'),fontSize: title==='Apparel'&&index===4?'24px':'16px',fontWeight:title==='Apparel'&&index===4?'bold':'', }} > {item} </p>
                 })}
                 <div className="footerSocials">
                 {icons?icons.map((item, index) => {

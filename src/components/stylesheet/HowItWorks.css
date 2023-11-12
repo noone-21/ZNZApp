@@ -4,8 +4,6 @@
     margin-top: 3700px;
 }
 .howItWorksHeader{
-    /* display: flex;
-    flex-direction: column; */
     text-align: center;
     margin: 0 auto;
     justify-content: center;
@@ -29,7 +27,6 @@
 }
 .howItWorksBody{
     display: flex;
-    /* width: 90%; */
     gap: 150px;
     margin: 30px auto;
     justify-content: center;
@@ -47,7 +44,9 @@
     height: 280px;
 }
 
-/* HOW IT WORKs ITEM */
+
+
+/* HOW IT WORKS ITEM */
 .howItWorksItem h2{
     margin: 0;
 }

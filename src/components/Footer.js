@@ -19,14 +19,12 @@ function Footer() {
         </div>
         <div className="footerBody">
           {FooterItems.map((item) => (
-            <div key={item.key} className='footerItemWrapper'>
               <FooterItem
                 key={item.key}
                 title={item.title}
                 contents={item.contents}
                 icons={item.icons}
               />
-            </div>
           ))}
         </div>
         <div className="paymentMethods">

@@ -18,7 +18,6 @@ function Reviews() {
                 </div>
                 <div className="reviewsBody">
                 {customerReviews.map((item) => {
-                    //   return  <div key={item.key} className='promotionalItemWrapper'>
                       return  <ReviewItem
                           key={item.key}
                           customerName={item.customerName}
@@ -27,7 +26,6 @@ function Reviews() {
                           date={item.date}
                           rating={item.rating}
                         />
-                    //   </div>
                     })}
                 </div>
             </section>
