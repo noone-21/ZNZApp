@@ -9,10 +9,11 @@
     width: 100%;
     justify-content: center;
 }
-.patchCategoryHeader h1{
+.patchCategoryHeader h3{
     color: #74BDE0;
     width: 100%;
     display: flex;
+    font-size: xx-large;
     justify-content: center;
 }
 .patchCategoryHeader p{

@@ -7,7 +7,7 @@ function Perks() {
     return (
         <>
             <section className='perks' >
-                <h1>Shop With Confidence</h1>
+                <h3>Shop With Confidence</h3>
                 <div className='perkItems ' >
                 {PerksItems.map((item) => {
                            return <PerkItem

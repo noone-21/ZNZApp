@@ -10,7 +10,7 @@ function Reviews() {
         <>
             <section className='reviews' >
                 <div className='reviewsHeader' >
-                    <h2>What Our Customer Says</h2>
+                    <h3>What Our Customer Says</h3>
                     <div className='reviewsNavigation' >
                         <img src={leftArrow} alt="" />
                         <img src={rightArrow} alt="" />

@@ -12,11 +12,12 @@
     width: 95%;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 }
-.reviewsHeader h2{
+.reviewsHeader h3{
     width: 90%;
     color: #3B7197;
-    font-size: 28px;
+    font-size: xx-large;
     font-weight: 600;
     text-align: left;
 }
@@ -32,7 +33,7 @@
 }
 .reviewsBody{
     display: flex;
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     gap: 10px;
 }
@@ -69,6 +70,7 @@
 }
 .reviewItemFooter p{
     margin: 0;
+    font-size: 13px;
 }
 .reviewItemFooter img{
     width: 16px;
